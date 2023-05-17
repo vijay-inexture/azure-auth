@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    azure:
+      active-directory:
+          enabled: true
+          profile:
+            tenant-id: a40ee758-1021-4d42-b0f0-f4f554472af6
+          credential:
+            client-id: d3fa5a1b-9606-469a-931c-b6b0d06a9522
+            client-secret: xiv8Q~2MjHUZj_2ZJekfRHctFrFj4nfaR0pxob~4
+
+redirect_uri: "http://localhost:8080/login/oauth2/code/"
+scopes: "api://d3fa5a1b-9606-469a-931c-b6b0d06a9522/.default"
+
+#          authorization-clients:
+#            graph-api: api://d3fa5a1b-9606-469a-931c-b6b0d06a9522
+            
+#          user-group:
+#            allowed-group-names: "group1"
+         
